@@ -1,0 +1,16 @@
+.header :global(.navbar) img {
+  height: 40px;
+}
+.navlink {
+  color: #dbdbdb !important;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  text-transform: capitalize;
+}
+.navlink:hover {
+  color: #fff !important;
+}
+.navlink:global(.active) {
+  color: #fff !important;
+  font-weight: bold;
+}
